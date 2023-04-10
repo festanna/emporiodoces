@@ -1,3 +1,4 @@
 # emporiodoces
 
 - vanessa
+- fernanda
