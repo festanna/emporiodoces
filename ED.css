@@ -23,3 +23,32 @@
     text-decoration: none; 
     border-bottom:3px solid #f3e3d3; 
 }
+/*
+.comentarios {
+ width: 470px;
+ height: 190px;
+ background-color: rgba(10,23,55,0.5);
+ display: block;
+ margin-top: -2px;
+ }
+ */
+
+ .contato{
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ }
+
+ /*
+  .container .contato{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+  */
