@@ -50,11 +50,56 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
     border-bottom:3px solid rgb(169, 133, 133, 0.68); 
 }
 .menu-item {
-  font-family:'Rufina', serif;
+  font-family:'Oxygen', sans-serif;
   color:antiquewhite;
   font-weight: 400;
   font-size: 18px;
 
+}
+
+.conteudo {
+  margin-bottom: 44px;
+  border-top: 0.4px solid #333;
+}
+
+.conteudo-apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-apresentacao-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-apresentacao-titulo {
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #966b72;
+}
+
+.conteudo-apresentacao-subtitulo {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: brown;
+}
+
+.conteudo-contato-botao {
+  background-color: #966b72;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(10,23,55,0.5);
+  border-radius: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: antiquewhite;
 }
 
 #container .comentarios {
@@ -87,35 +132,35 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
  */
   h1 {
     color:#966b72; 
-    font-family:Georgia,"Times New Roman",Times,serif;
+    font-family: 'Rufina', serif;
   }
 
   h2 {
     color:brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
 
   h3 {
     color: darkgreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
 
   h4 {
     color:red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
 
   h5 {
     color: chartreuse;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
 
   h6 {
     color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
 
   p {
     color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rufina', serif;
   }
