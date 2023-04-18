@@ -1,54 +1,121 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Rufina:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+font-size: 100%;
+background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;  /*Colocou os itens do menu do cabeçalho para a esquerda*/
+  padding: 24px;
+}
+
 .logo img{
-    float: left;
+  height: 72px;
+
+    /*float: left;
     width: 15%;
     border: thin solid;
     padding: 5px;
-    margin: 0px 10px 10px 0;
+    margin: 0px 10px 10px 0;*/
    }
 
-   #menu ul { padding:0px;
+
+  .itens-menu ul { padding:0px;
     margin:0px;
-    background: color #f3e3d3;;
+    background: color rgb(169, 133, 133, 0.68);
     list-style:none;
   }
 
-  #menu ul li { display: inline; }
+  .itens-menu ul li { display: inline; }
 
-  #menu ul li a { 
+  .itens-menu ul li { 
     padding: 2px 10px; 
-    display: inline-block; /* visual do link */ 
-    background-color:#f3e3d3; 
+    display: inline-block;
+    gap: 32px;
+    background-color:rgb(169, 133, 133, 0.68); 
     color: #333; 
     text-decoration: none; 
-    border-bottom:3px solid #f3e3d3; 
+    border-bottom:3px solid rgb(169, 133, 133, 0.68); 
 }
-/*
-.comentarios {
- width: 470px;
- height: 190px;
+.menu-item {
+  font-family:'Rufina', serif;
+  color:antiquewhite;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+#container .comentarios {
+ width: 50px;
+ height: 25px;
  background-color: rgba(10,23,55,0.5);
  display: block;
  margin-top: -2px;
  }
- */
+ 
 
  .contato{
   background-color: #000;
   opacity: 0.5;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  width: 50%;
+  height: 25%;
+  position: static;
  }
 
  /*
-  .container .contato{
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  #container {
+    width: 50%;
+    height: 25%;
+    position: static;
     top: 0; 
     left: 0;
     background: #000;
     opacity: 0.5;
   }
-  */
+ */
+  h1 {
+    color:#966b72; 
+    font-family:Georgia,"Times New Roman",Times,serif;
+  }
+
+  h2 {
+    color:brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h3 {
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h4 {
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h5 {
+    color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h6 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
