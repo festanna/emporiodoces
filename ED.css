@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Gothic+A1:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Emilys+Candy&family=Gothic+A1:wght@300;500&family=Josefin+Slab&display=swap');
 
 
 *{
@@ -38,7 +38,7 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
     margin:0px;
     background: color #df4565;
     list-style:none;
-  }
+  } 
 
   .itens-menu ul li { display: inline; }
 
@@ -60,9 +60,11 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
 }
 
 
-.conteudo {
+.linha-margem {
   margin-bottom: 44px;
   border-top: 0.4px solid #333;
+  min-height: 300px;
+  
 }
 
 .conteudo-apresentacao {
@@ -80,18 +82,25 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
 }
 
 .conteudo-apresentacao-titulo {
-  font-family: 'Corben', cursive;
+  font-family:'Emilys Candy', cursive;
   font-weight: 400;
   font-size: 64px;
   color: #df4565;
 }
 
 .conteudo-apresentacao-subtitulo {
-  font-family:'Gothic A1', sans-serif;
+  font-family:'Josefin Slab', serif;
   font-weight: 500;
   font-size: 30px;
   color: #563023;
 
+}
+
+.conteudo-apresentacao-frase-efeito {
+  font-family:'Josefin Slab', serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #563023;
 }
 
 /*
@@ -250,11 +259,32 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
   color: antiquewhite;
 }
 
+.cadastrar {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+color: #df4565;
+font-family: 'Corben', cursive;
+font-weight: 1000;
+}
+
 .botoes-redes-sociais {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.itens-menu-rodape ul { padding:0px;
+  margin:0px;
+  background: color #df4565;
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;  /*Colocou os itens do menu do cabeçalho para a esquerda*/
+  padding: 0 px;
 }
 
 /*
@@ -286,6 +316,49 @@ background: linear-gradient(#f3e3d3, transparent,#f3e3d3);
     opacity: 0.5;
   }
  */
+
+
+
+ form {
+   max-width: 500px;
+   margin: 0 auto;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 10px;
+   font-size: 16px;
+   color: #333;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="tel"],
+ select,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-size: 16px;
+   color: #333;
+ }
+
+ input[type="submit"] {
+   background-color: #0099FF;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ input[type="submit"]:hover {
+   background-color: #0077CC;
+ }
+
+
   h1 {
     color:#df4565; 
     font-family: 'Corben', cursive;
