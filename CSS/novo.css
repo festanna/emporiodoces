@@ -1,0 +1,184 @@
+
+/* Definição das cores */
+:root {
+  --cor-primaria: #563023;
+  --cor-secundaria: #ba8f2a;
+  --cor-terciaria: #b8f6c9;
+  --cor-quaternaria: #ecdbc5;
+  --cor-quintenaria: #966b72;
+  --cor-branca: #ffffff;
+  --cor-preta: #000000;
+}
+
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Emilys+Candy&family=Gothic+A1:wght@300;500&family=Josefin+Slab&display=swap');
+
+/* Estilos gerais */
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 16px;
+  color: var(--cor-preta);
+  background-color: var(--cor-branca);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-primaria);
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.itens-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--cor-branca);
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.menu-item:hover {
+  background-color: var(--cor-secundaria);
+}
+
+/* Estilos da seção de comentários */
+#comentarios {
+  position: relative;
+  margin-top: 50px;
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.botao-slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: var(--cor-branca);
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.botao-slider:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.botao-anterior {
+  left: 0;
+}
+
+.botao-proximo {
+  right: 0;
+}
+
+.indicadores-slider {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.indicador-slider {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(50% - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.box h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.box p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}

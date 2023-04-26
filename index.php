@@ -8,12 +8,11 @@
     <link rel="stylesheet" type="text/css" href="ED.css">
     <title>Empório dos Doces</title>
 </head>
-
 <body>
 
     <header class="cabecalho">
         <div class="logo">
-            <img src="Logo_Pink_Black.png" alt="Logo Empório dos Doces">
+            <img src="LogoFinal.png" alt="Logo Empório dos Doces">
         </div>
         <nav class="itens-menu">
             <ul>
@@ -34,26 +33,29 @@
                 <br>
                 <H1 class="conteudo-apresentacao-titulo">Empório dos Doces</H1>
                 <h2 class="conteudo-apresentacao-subtitulo"><b> A mais nova confeitaria gourmet de Carmo do Cajuru</b></h2>
-                <h3 class="conteudo-apresentacao-frase-efeito"> Feitos com produtos selecionados</h3> 
+                <h3 class="conteudo-apresentacao-frase-efeito"> Produtos feitos artesanalmente e com ingredientes selecionados</h3> 
                 <br>
             </div>
         </section>
-        <section id="sobre" class="conteudo-sobre linha-margem">
-            <div class="container">
 
-                <br>
-                <h2 class="sobre-titulo">SOBRE</H2>
-                <p class="sobre-paragrafo">A Empório dos Doces é uma confeitaria gourmet localizada em Carmo do Cajuru
-                    (MG) que tem como propósito a produção artesanal de doces com produtos selecionados.</p>
+     
+          <section id="sobre" class="conteudo-sobre">
+            <div class="container-sobre">
+              <h2 class="sobre-titulo">SOBRE</h2>
+              <p class="sobre-paragrafo">A Empório dos Doces é uma confeitaria gourmet localizada em Carmo do Cajuru (MG).</p>
+              <br>
+              <br>
+              <br>
+              <p class="proposito">Nosso propósito é a produção artesanal de doces com produtos selecionados.</p>
             </div>
-
-        </section>
-
-        <section id="cardapio" class="conteudo-cardapio linha-margem">
+          </section>
+        <section id="cardapio" class="conteudo-cardapio">
             <div class="container">
                 <div>
                     <br>
                     <h2 class="conteudo-cardapio-titulo">CARDÁPIO</h2>
+                    <br>
+                    <br>
                     <h3 class="conteudo-cardapio-subtitulo">KIT'S FESTA</h3>
 
                     <h4 class="conteudo-cardapio-descricao-item">Kit Mini (R$ 175,00)</h4>
@@ -110,73 +112,95 @@
             </div>
         </section>
 
-        <section id="lembrancinhas" class="conteudo-lembrancinhas linha-margem">
+        <section id="lembrancinhas" class="conteudo-lembrancinhas ">
+            <br>
             <div>
-                <div class="container">
-                    <h3 class="conteudo-lembrancinhas-subtitulo">LEMBRANCINHAS</h3>
-                    <h4>Trufas</h4>
-                    <h4>Bolos de Pote</h4>
+              <h3 class="conteudo-cardapio-subtitulo">LEMBRANCINHAS</h3>
+              <br>
+            <div class="container">
+                <div>
+                  <h4>Trufas</h4>
+                  <div class="trufas">
+                    <br>
+                    <img src="Bombons.jpeg" alt="Foto real - Trufas">
+                  </div>
+            </div>
+
+                <div>
+                  <h4>Bolos de Pote</h4>
+                  <div class="bolopote">
+                    <br>
+                    <img src="BolodePote.jpeg" alt="Foto real - Bolo de Pote">
+                  </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="entregas" class="conteudo-entregas linha-margem">
+            <br>
             <div>
-                <div id="container">
-                    <h3 class="conteudo-entregas-subtitulo">ENTREGAS</h3>
+                    <h2 class="conteudo-entregas-subtitulo">ENTREGAS</h2>
+                    <br>
+                    <br>
                     <p>Carmo do Cajuru: entregas gratuitas!!</p>
                     <p>Divinópolis: entrega de encomendas a partir de R$100,00 (frete a ser calculado).</p>
                     <p>Os salgadinhos vão quentinhos, fritos na hora!</p>
-                    <p>Praticidade qualidade preço bom só aqui na Empório.</p>
-                    <p>Em breve nossos kits de festas terão docinhos também!</p>
-                </div>
+                    <p>Praticidade, qualidade e preço bom só aqui na Empório.</p>
             </div>
         </section>
-
-        <section id="encomendas" class="conteudo-encomendas linha-margem">
+        <section id="encomendas" class="conteudo-encomendas">
             <div>
                 <div id="container">
                     <h3 class="conteudo-encomendas-subtitulo">FAÇA SUA ENCOMENDA</h3>
                 </div>
             </div>
         </section>
-
-        <section id="comentarios" class="conteudo-comentarios linha-margem ">
-
-            <div>
-                <div class="container">
-                    <h3 class="conteudo-comentarios-subtitulo">COMENTÁRIOS</h3>
-                    <ul>
-                        <!--<li> <img src="FundoPretoSólido.sgv.svg"/> <br>-->
-                        "Milena, Boa noite... Passando para agradecer por ter nos proporcionando uma páscoa maravilhosa
-                        com ovos deliciosos... Todos estavam lindos e gostosos percebe que foram feitos com muito amor e
-                        capricho... Muito obrigada querida"
-                        <br>-Josy
-                        </li>
-                        <!--<li> <img src="FundoPretoSólido.sgv.svg"/> <br>-->
-                        "Eu quem agradeço, essa maravilha, porque ficou delícia viu?"</li>
-                    </ul>
-                </div>
+        <br>
+        <br>
+        <section>
+            <div class="conteudo-botao">
+                <button class="conteudo-encomendas-botao"
+                    onclick="window.location='https://api.whatsapp.com/send?phone=5537998701560&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+seus+produtos.+Pode+me+enviar+o+card%C3%A1pio+por+gentileza'"
+                    ;>CLIQUE AQUI E FAÇA SUA ENCOMENDA!</button>
             </div>
 
         </section>
 
+<section id="comentarios" class="conteudo-comentarios linha-margem">
 
-        <section id="contato" class="conteudo-contato linha-margem">
+<div class="conteudo-comentarios">
+  <h2>COMENTÁRIOS</h2>
+  </div>
+
+  <div class="slider">
+    <ul class="slider-list">
+      <li><img src="1.svg" alt="Depoimento 1"></li>
+      <li><img src="2.svg" alt="Depoimento 2"></li>
+      <li><img src="3.svg" alt="Depoimento 3"></li>
+    </ul>
+
+</div>
+</section>
+
+
+  
+
+        <section id="contato" class="conteudo-contato">
             <div >
                 <h3 class="conteudo-contato-subtitulo">DÚVIDAS?</h3>
             </div>
         </section>
-        <section>
+    <br>
+    <br>
+            <section>
+
             <div class="conteudo-botao">
                 <button class="conteudo-contato-botao"
                     onclick="window.location='https://api.whatsapp.com/send?phone=5537998701560&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+seus+produtos.+Pode+me+enviar+o+card%C3%A1pio+por+gentileza'"
                     ;>CLIQUE AQUI E FALE COM A MILENA!</button>
             </div>
 
-            <br>
-            <br>
-            <br>
         </section>
 
         <section id="novidades" class="linha-margem ">
@@ -214,16 +238,6 @@
                         target="_blank"></a>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <br>
         <div class="itens-menu-rodape">
             <ul>
